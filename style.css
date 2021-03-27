@@ -1,0 +1,328 @@
+/* ------------------------------Global Style sheet------------------------------------ */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.header {
+  width: auto;
+  height: 80px;
+  background: darkgrey;
+}
+.header a {
+  text-decoration: none;
+}
+.menu ul li {
+  display: inline-flex;
+  list-style: none;
+  margin: 25px;
+  color: #2f4f4f;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Kanit", sans-serif;
+  font-size: 25px;
+}
+.menu ul li:hover {
+  background-color: transparent;
+  color: #ffffff;
+  transition: 0.5s ease;
+  margin-left: 20px;
+}
+.logo img {
+  width: 40px;
+}
+.sgn-btn {
+  top: 18px;
+  right: 80px;
+  position: absolute;
+}
+::placeholder {
+  color: #f1b24a;
+}
+
+/* ---------------------------------Stylesheet for Home Page---------------------------------- */
+
+.bkimg {
+  background: url(chairimages.jpg);
+  background-size: cover;
+}
+.title {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title h1 {
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  line-height: 96%;
+}
+.discription {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.discription h2 {
+  color: #f1b24a;
+  font-size: 50px;
+  font-family: Verdana;
+  text-align: center;
+  line-height: 120%;
+}
+.button {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  border: 1px solid transparent;
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s ease;
+}
+
+/* ----------------------------------Stylesheet for Courses Page------------------------------------- */
+
+.cpage {
+  background: #778899;
+  text-align: center;
+  font-size: 30px;
+  font-style: monospace;
+  color: beige;
+}
+.content {
+  border: 50px solid #778899;
+  background-color: #c0c0c0;
+  text-align: center;
+  position: static;
+  top: 50%;
+  left: 50%;
+  color: beige;
+}
+.content a:hover {
+  background-color: transparent;
+  color: #ffffff;
+  transition: 0.5s ease;
+}
+.content a {
+  color: #708090;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* --------------------------------Stylesheet for Login Page-------------------------------- */
+
+.lgtitle {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  line-height: 96%;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.loginbox {
+  width: 320px;
+  height: 420px;
+  background: #4f4846;
+  color: azure;
+  top: 36%;
+  left: 40%;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 20px;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 104px;
+}
+.loginbox h1 {
+  margin: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+.loginbox p {
+  font-weight: bold;
+}
+.loginbox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.loginbox input[type="text"],
+input[type="password"] {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  height: 40px;
+  color: #fff;
+  font-size: 15px;
+}
+.loginbox input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #707070;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffffff;
+  color: #000;
+}
+.loginbox a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+  font-weight: bold;
+}
+.loginbox a:hover {
+  color: antiquewhite;
+}
+
+/* ----------------------------Stylesheet for Premium Service Page------------------------------- */
+
+.shcard {
+  width: 1000px;
+  height: 500px;
+  background: #4f4846;
+  color: azure;
+  position: absolute;
+  top: 30%;
+  left: 19%;
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 20px;
+}
+.shcard h2 {
+  position: absolute;
+  top: 2%;
+  left: 34%;
+  text-align: center;
+  font-size: 30px;
+  color: #fdf8f5;
+}
+.servicetitle {
+  text-align: center;
+  font-size: 30px;
+  color: #f1b24a;
+}
+.bond ul li {
+  line-height: 150%;
+  font-size: 20px;
+}
+
+/* ------------------------------Stylesheet for Contact Us Page----------------------------------- */
+
+.contact-title {
+  position: absolute;
+  top: 30%;
+  left: 39%;
+  text-align: center;
+  font-size: 25px;
+  color: #f1b24a;
+}
+.contact-form {
+  position: absolute;
+  top: 40%;
+  left: 32%;
+}
+.form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #164a41;
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+form .submit {
+  background: #707070;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+form .submit:hover {
+  cursor: pointer;
+  background: #fdf8f5;
+  color: #000;
+}
+.socialcontact {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+}
+.socialcontact ul li {
+  display: inline-flex;
+  margin: 20px;
+  cursor: pointer;
+}
+
+/* ---------------------------------------CSS for Dummy Page------------------------------------- */
+
+.Dpage {
+  background-color: #808080;
+  color: #fdf8f5;
+  font-family: Helvetica;
+}
+.sface {
+  font-size: 100px;
+  position: fixed;
+  top: 20%;
+  left: 10%;
+}
+.sp {
+  font-size: 100px;
+  position: fixed;
+  top: 20%;
+  left: 25%;
+}
+.bkhomebutton {
+  position: absolute;
+  top: 138%;
+  left: 12%;
+}
+.backbtn {
+  border: 1px solid beige;
+  border-radius: 20px;
+  color: beige;
+  outline: none;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-size: 50px;
+  padding: 20px;
+}
+.backbtn:hover {
+  background-color: #f1b24a;
+  color: #164a41;
+  transition: 0.5s ease;
+  border: none;
+}
